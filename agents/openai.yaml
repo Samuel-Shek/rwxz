@@ -1,0 +1,7 @@
+interface:
+  display_name: "人味写作（rwxz）"
+  short_description: "文案创作、改写、润色、标题和大纲默认先读后写；短文案也用，无需询问，明确停用才退出。"
+  default_prompt: "Use $rwxz by default to write, rewrite or polish copy, titles and outlines in the target language without asking to enable it; preserve facts, explicit constraints, task opt-outs and specialist final review."
+
+policy:
+  allow_implicit_invocation: true
