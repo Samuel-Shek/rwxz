@@ -139,6 +139,7 @@ def main():
             print(f'中文旁的半角标点 {len(hits)} 处：' + '  '.join(repr(h) for h in hits[:12]))
         else:
             print('中文旁未发现半角标点')
+    print('提示：本脚本只查词和标点，不查语法、搭配和逻辑；零命中不等于过关，交稿前仍须逐句通读（SKILL.md 第 9 节第 8 条）。')
     sys.exit(1 if hard_hits else 0)
 
 
