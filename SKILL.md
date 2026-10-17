@@ -2,7 +2,7 @@
 name: rwxz
 description: 人味写作：文案创作、改写、润色、标题和大纲默认先读后写，短文案也用，无需询问。覆盖专业报告、微信公众号、邮件、社媒、产品文案及各目标语言。Always read and apply for copy creation, rewriting, polishing, de-AI editing, titles and outlines, including a single sentence. Respect explicit task opt-outs and specialist final review. Translation-only, mechanical formatting, code and ordinary Q&A do not require it; translation with copy adaptation does.
 metadata:
-  version: "3.2.1"
+  version: "3.3.0"
   aliases: [renwei-xiezuo, renwei-writing, xzbw, gvhbw]
   local_aliases: [/rwxz, /renwei-xiezuo]
 ---
@@ -217,5 +217,6 @@ v3 的变化：方法按任务选，不再让每篇文字都走爆文流程；�
 - v3.2.0（2026-10-16）：根据用户阅读反馈，`lang-zh.md` 新增“抽象名词压缩句”及“念给不懂行的人听”检查项；`channels.md` 专业报告部分补小标题与判断句要求；`text_check.py` 把余量、意味、分寸等加入中文提示词。明确本技能负责措辞，领域流程负责内容与结构。公开发布版使用通用示例并移除私人环境信息，技能版本保持 3.2.0。
 
 - v3.2.1（2026-10-17）：根据用户阅读反馈，一份改写稿在把抽象词换成白话时，换出了主语搭配错误和句内自相矛盾的病句；原因是只用脚本扫抽象词，扫干净就交稿，没有逐句通读。第 9 节新增第 8 条“逐句通读”硬性检查，并写明脚本扫词不算数；`lang-zh.md` 补主语搭配、句内矛盾两项检查；`text_check.py` 每次运行末尾提示“本脚本不查语法”。
+- v3.3.0（2026-10-17）：根据用户定稿一份写给家长的报告时的反馈：收尾句“你陪着他，把理由讲清，把时间留出来”动作没有对象，两个“把……”并排像口号，又像在给读者派任务；当事人是孩子时，正文应该用家里叫的小名，主标题保留全名。`lang-zh.md` 第 7 节新增第 11 条收尾句检查；`channels.md` 第 5 节新增“称呼”和“写给第三方看的版本”两条。
 
 最后更新：2026-10-17。
